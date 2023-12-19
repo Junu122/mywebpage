@@ -1,0 +1,334 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#0f0c29,#302b63,#24243e);
+    display: flex;
+}
+
+.main{
+    width: 400px;
+    height: 400px;
+    background: red;
+    background: url(img1.jpg) no-repeat center / cover;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+   
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    background: #cbdede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+}
+
+button{
+    width: 60%;
+    height: 40px;
+    margin:  auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #573b8a;
+    font-size:1em ;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+    display: flex;
+   
+}
+button:hover{
+    background: #6d44b8;
+} */
+
+
+*{
+box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/2img.jpg)no-repeat center / cover;
+    transition: 0.5s;
+}
+.imgback{
+    background: url(images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body.active{
+    background: url(images/img1.jpg)no-repeat center / cover;
+}
+
+.mainbox{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+   
+}
+
+.innerbox{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 420px;
+    top: 40px;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox .box{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.innerbox .box h3{
+    color: #1B4242;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.innerbox .box button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #573b8a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.formbx{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 45px rgba(0,0,0,0.25);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.formbx.active{
+    left: 50%;
+    height: 550px;
+    
+}
+
+
+
+.formbx .form{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    transform: 0.5s;
+}
+.formbx .signinform{
+    transition-delay: 0.25s;
+}
+.formbx.active .signinform{
+    left: -100%;
+    transition-delay: 0.25s;
+
+}
+.formbx .signupform{
+    
+    left: 100%;
+    transition-delay: 0.25s;
+
+
+}
+.formbx.active .signupform{
+    left: 0;
+    transition-delay: 0.25s;
+    
+}
+
+.formbx .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.formbx .form form h2{
+    font-size: 1.3rem;
+    color: #03a9f4;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+.formbx .form form .form-inputs{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #cbdede;
+}
+.btnclass{
+    background:#fff
+}
+
+/* 
+.formbx .form form .btnclass{
+    
+  
+  padding:8px 0 ; 
+  color: #fff; 
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  
+} */
+
+
+.loginbtn{
+    background:#6708da ; 
+    padding:8px 0 ; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.hello{
+    background: #6b5e7a;
+    padding:8px 0 ; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.signupform form .originalbtn{
+    background: #6708da;
+    padding:8px 0 ; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.formbx .form form a{
+margin-top: 5px;
+text-decoration: none;
+font-weight:500;
+}
+.formhead{
+    text-align: center;
+}
+
+
+
+
+.col-12{
+    align-items: start;
+    margin-bottom: 10px;
+
+}
+.col-12 input,span{
+    margin-top: 20px;
+}
+
+@media(max-width:991px){
+     .mainbox{
+        max-width: 400px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .mainbox .innerbox{
+        top: 0;
+        height: 100%;
+     }
+     .formbx{
+        width: 100%;
+        height: 500px;
+        top: 0;
+        box-shadow: none;
+     }
+     .innerbox .box{
+        position: absolute;
+        width: 100%;
+        height: 130px;
+        bottom: 0;
+     }
+     .box.signin{
+        top: 0;
+
+     }
+     .formbx.active{
+        left: 0;
+        top:130px
+     }
+    
+}
+
+.loginbtn{
+    margin-top: 20px;
+}
+
+.formhead::after{
+    background:#03a9f4 ;
+    content:"";
+    display:block ;
+    width: 100px;
+    height: 4px;
+    margin: 5px auto;
+}

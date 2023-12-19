@@ -1,0 +1,206 @@
+
+#header{
+    color: #fff;
+    background-color: #092635;
+}
+a{
+    text-decoration: none;
+    color: #c0392b;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+    background:#e74c3c ;
+    content:"";
+    display:block ;
+    width: 150px;
+    height: 8px;
+    margin: 15px auto;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 4px;
+}
+#menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    
+}
+#menu li a:hover{
+    background-color: #c0392b;
+}
+
+
+
+
+
+#banner{
+    background: url(2img.jpg) no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+   
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+   background: rgba(255,255,255,0.7);
+   display: inline-block;
+   padding: 10px;
+   margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgb(231, 76, 60,0.7);
+    padding: 10px;
+  
+}
+
+
+
+.service-box{
+    text-align: center;
+}
+.service-box i.fa-solid{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+
+#testimonials::before{
+    background-color:  rgba(52, 73, 94,0.7);;
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    height: 100%;
+}
+
+#testimonials{
+    background: url(3img.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    background-position: center;
+    color:#fff;
+    font-size: large;
+
+}
+
+
+.testimonial img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+.news-post img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+ 
+}
+
+.news-post h3{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: #c0392b;
+}
+
+.post-date{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.post-date i.fa-solid{
+    font-size: 15px;
+    padding-right:10px;
+    color: #34495e;
+}
+
+.read-more{
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+#footer-sidebar{
+    background: #34495e;
+}
+.footer-widgets h4{
+    padding-top: 10px;
+    color: #fff;
+   
+}
+.footer-widgets{
+    margin-top: 10px;
+}
+
+.facebook{
+    color: #0035bb;
+}
+.whatsapp{
+    color: #00bd07;
+}
+.twitter{
+    color: #1c96e8;
+}
+.fa-regular{
+    padding-right: 10px;
+}
+.lists{
+    list-style: none;
+    padding-left: 0;
+    
+}
+.lists li a{
+    color: black;
+}
+.space{
+    padding-right: 8px;
+}
+.copy{
+    padding-top: 10px;
+}
+
+.smilee{
+    font-size: 20px;
+    color: #FFB534;
+}
+
+.dropdown-item:hover {
+    background-color: red;
+    transition: 0.6s ease-in-out ;
+}

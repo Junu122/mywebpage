@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/28bd0239c6.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="style2.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+    <body>
+        
+
+       
+      <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <h1 style="color: #9EC8B9; font-size: 1rem; margin-top: 15px; border: 2px solid #fff; border-radius: 20px 20px; width: 200px; text-align: center;"> Welcome <%=loggedUser.fullname%> </h1>
+                </div>
+                <div class="col-md-8 ">
+                    <ul id="menu" class="float-md-right ">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Links</a></li>
+                        <li><a href="">Help</a></li>
+                        <div class="btn-group">
+                            <a href="" class="  dropdown-toggle" data-toggle="dropdown">more</a>
+                            <div class="dropdown-menu">
+                                <a href="" class="dropdown-item "><i class="fa-solid fa-user"></i> My profile</a>
+                                <a href="/login" class="dropdown-item"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+      <div id="banner" class="py-5">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-6">
+                <div class="banner-title">
+                    <h1 class="title">Heading will be here</h1>
+                    <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quae harum aliquam assumenda, natus iste odit facilis eum inventore veritatis?</p>
+
+                </div>
+            </div>
+        </div>
+       </div>
+      </div>
+
+
+
+      <div class="container section">
+           <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">Some heading</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-solid fa-anchor"></i>
+                    <h3>some heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, ex.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-solid fa-bar-chart"></i>
+                    <h3>some heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, ex.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>some heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, ex.</p>
+                </div>
+            </div>
+           </div>
+      </div>
+   
+
+
+     
+<div id="testimonials" class="section">
+    <div class="container">
+       <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-head ">Testimonials</h2>
+        </div>
+        <div class="col-md-6">
+           <div class="testimonial">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quibusdam sapiente aut excepturi! Eum, soluta.</p>
+            <img src="businessman2.jpg" alt="">
+            <div class="author">
+                THOMAS WALT
+            </div>
+            <div class="author-company">
+                     REVONUS
+            </div>
+           </div>
+        </div>
+        <div class="col-md-6">
+            <div class="testimonial">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quibusdam sapiente aut excepturi! Eum, soluta.</p>
+                <img src="businessman1.jpg" alt="">
+                <div class="author">
+                  ALEX REO
+                </div>
+                <div class="author-company">
+                     CRUNCH
+                </div>
+               </div>
+        </div>
+       </div>
+    </div>
+</div>
+
+<div id="news" class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-head ">Recent news</h2>
+        </div>
+        <div class="col-lg-3">
+            <div class="news-post">
+                <img src="1img.jpg" alt="">
+                <h3><a href="">News heading here</a></h3>
+                <div class="post-date"><i class="fa-solid fa-calendar-days"></i>december-03-2023</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, repellat.</p>
+                <i class="fa-solid fa-angle-right"></i><a href="" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="news-post">
+                <img src="2img.jpg" alt="">
+                <h3><a href="">News heading here</a></h3>
+                <div class="post-date"><i class="fa-solid fa-calendar-days"></i>december-03-2023</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, repellat.</p>
+                <i class="fa-solid fa-angle-right"></i> <a href="" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="news-post">
+                <img src="4img.jpg" alt="">
+                <h3><a href="">News heading here</a></h3>
+
+                <div class="post-date"><i class="fa-solid fa-calendar-days"></i>december-03-2023</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, repellat.</p>
+                <i class="fa-solid fa-angle-right"></i><a href="" class="read-more">Read more</a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="news-post">
+                <img src="5img.jpg" alt="">
+                <h3><a href="">News heading here</a></h3>
+                <div class="post-date"><i class="fa-solid fa-calendar-days"></i>december-03-2023</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, repellat.</p>
+                <i class="fa-solid fa-angle-right"></i><a href="" class="read-more">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="footer-sidebar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-widgets">
+                    <h4><i class="fa-solid fa-info space"></i>About company</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, cupiditate!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ex!</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widgets">
+                    <h4><i class="fa-solid fa-briefcase space"></i>Our services</h4>
+                   <ul class="lists">
+                    <li><i class="fa-regular fa-circle-dot"></i><a href="">Lorem ipsum dolor sit amet.</a></li>
+                    <li><i class="fa-regular fa-circle-dot"></i><a href="">bulk service Lorem, ipsum dolor.</a></li>
+                    <li><i class="fa-regular fa-circle-dot"></i><a href="">b Lorem ipsum dolor sit.</a></li>
+                    <li><i class="fa-regular fa-circle-dot"></i><a href="">bulk service</a></li>
+                    <li><i class="fa-regular fa-circle-dot"></i><a href="">bulk service</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widgets">
+                    <h4><i class="fa-solid fa-location-dot space"></i>Reach us</h4>
+                    <address>
+                        <b>LOGICAL HEIGH</b>
+                        112/3,MANYATA TECH PARK,
+                        EMBASSY BUILDING,BANGALORE-560064
+                    </address>
+                    <div class="row">
+                        <div class="col-3">
+                            <a href=""><i class="fa-brands fa-facebook facebook"></i></a>
+                           </div>
+                           <div class="col-3">
+                            <a href=""><i class="fa-brands fa-whatsapp whatsapp"></i></a>
+                           </div>
+                           <div class="col-3">
+                            <a href=""><i class="fa-brands fa-twitter twitter"></i></a>
+                           </div>
+                    </div>
+                    <p class="copy"><i class="fa-regular fa-copyright"></i>All right reserved</p>
+                  
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+   function animateUsername() {
+    const nameElement = document.querySelector('.col-md-4 h1');
+    const username = nameElement.textContent.trim();
+    let i = 0;
+
+    const interval = setInterval(() => {
+        if (i <= username.length) {
+            nameElement.textContent = username.substring(0, i);
+            i++;
+        } else {
+            clearInterval(interval);
+        }
+    }, 500); // Adjust the speed (milliseconds)
+}
+
+window.onload = animateUsername;
+</script>
+    </body>
+</html>
